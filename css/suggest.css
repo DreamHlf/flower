@@ -1,0 +1,336 @@
+html, body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font: 16px "Microsoft YaHei UI", sans-serif;
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/*默认样式*/
+/*nav*/
+.nav {
+    width: 100%;
+    height: 79px;
+    background: #fff;
+    position: fixed;
+    top: 0;
+}
+
+.navContent {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 14px;
+}
+
+/*行内元素*/
+.logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.logo a image {
+    width: 100%;
+    height: 100%;
+}
+
+.navList {
+    width: 602px;
+    height: 100%;
+    float: right;
+}
+
+.navList li {
+    float: left;
+    width: 86px;
+    height: 100%;
+}
+
+.navList li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition: color linear .5s;
+}
+
+.navList li a:hover {
+    color: #16b0dc;
+}
+
+/*main*/
+.main {
+    width: 100%;
+    height: 939px;
+    margin-top: 30px;
+    padding: 30px 0;
+    background: #f2f2f2;
+    border-top: 1px solid #f0f2f5;
+}
+.main .mainHead{
+    width: 100%;
+    height: 120px;
+    display: flex;
+}
+.mainHead h1{
+    width: 100%;
+    height:42px;
+    line-height: 42px;
+    margin-top: 39px;
+    text-align: center;
+    color: #F67A82;
+    font-size: 35px;
+    font-weight: 400;
+}
+.main .mainContent{
+    width: 100%;
+    height: 699px;
+    border-top: 1px solid #f0f2f5;
+    padding: 30px 0;
+}
+.mainContent .container{
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+.container .containerLeft{
+    width: 720px;
+    height: 699px;
+    padding: 30px;
+    float: left;
+    background: #fff;
+}
+.containerLeft .listItem{
+    width: 100%;
+    height: 679px;
+    margin-bottom: 20px;
+}
+.listItem .listGroup{
+    width: 718px;
+    height: 57px;
+    padding: 10px 0;
+    border-top: 1px solid #e4eaec;
+}
+.listItem .itemGroup{
+    width: 718px;
+    height: 120px;
+    padding: 10px 0;
+    border-top: 1px solid #e4eaec;
+}
+.listItem .itemGroup1{
+    width: 718px;
+    height: 141px;
+    padding: 10px 0;
+    border-top: 1px solid #e4eaec;
+}
+.listGroup:first-child{
+    border: none;
+}
+.itemGroup:last-child{
+    border-top: 1px solid #e4eaec;
+    border-bottom: 1px solid #e4eaec;
+}
+.listGroup .groupContent{
+    width: 100%;
+    height: 53px;
+    padding: 2px 0;
+}
+.itemGroup .groupContent{
+    width: 100%;
+    height: 116px;
+    padding: 2px 0;
+}
+.itemGroup .groupContent{
+    width: 100%;
+    height: 137px;
+    padding: 2px 0;
+}
+.groupContent .contentLeft{
+    width: 46px;
+    height: 100%;
+    float: left;
+}
+.contentLeft i{
+    font-size: 36px;
+    color: #a3afb7;
+    margin-right: 10px;
+}
+.groupContent .contentRight{
+    width: 672px;
+    height: 100%;
+    float: right;
+}
+.contentRight h4{
+    height: 16px;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #37474f;
+}
+.contentRight div{
+    width: 630px;
+    height: 21px;
+    background-color: #f3f7f9;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+    padding: 20px;
+    font-size: 14px;
+}
+.contentRight .text{
+    width: 630px;
+    height: 42px;
+    background-color: #f3f7f9;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+    padding: 20px;
+    font-size: 14px;
+}
+h4 small{
+    float: right;
+    color: #a3afb7;
+}
+.contentRight p{
+    font-size: 14px;
+    color: #76838f;
+    margin-bottom: 11px;
+}
+.container .containerRight{
+    width: 300px;
+    height: 404px;
+    padding: 30px;
+    margin-bottom: 15px;
+    float: right;
+    background: #fff;
+}
+.containerRight .rightContent{
+    width: 300px;
+    height: 404px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.rightContent .name , .rightContent .tel , .rightContent .mail , .rightContent .submit{
+    width: 300px;
+    height: 36px;
+}
+.rightContent .code{
+      width: 300px;
+      height: 36px;
+    display: flex;
+  }
+.name .formName , .tel .formTel , .mail .formMail{
+    width: 268px;
+    height: 22px;
+    padding: 6px 15px;
+    font-size: 14px;
+    color: #76838f;
+    background: #fff;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+}
+.rightContent .suggest{
+    width: 300px;
+    height: 124px;
+}
+.suggest .formSuggest{
+    width: 268px;
+    height: 110px;
+    padding: 6px 15px;
+    font-size: 14px;
+    color: #76838f;
+    background: #fff;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+}
+.code .formCode{
+    width: 157px;
+    height: 22px;
+    padding: 6px 15px;
+    font-size: 14px;
+    color: #76838f;
+    background: #fff;
+    border: 1px solid #e4eaec;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.code span{
+    width: 80px;
+    height: 22px;
+    line-height: 22px;
+    padding: 6px 15px;
+    color: #76838f;
+    text-align: center;
+    background: #f3f7f9;
+    border: 1px solid #e4eaec;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.submit .btnSubmit{
+    width: 300px;
+    height: 36px;
+    font-size: 14px;
+    color: #fff;
+    background: #62a8ea;
+    border: 1px solid #62a8ea;
+    border-radius: 3px;
+}
+
+/*footer*/
+.footer{
+    width: 100%;
+    height:200px;
+    background: #f5f5f5;
+    color: #aaaaaa;
+    font-size: 14px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footerTop{
+    border-top: 1px solid #f0f2f5;
+    height: 20px;
+    background: white;
+}
+.footerContent{
+    width: 1170px;
+    height: 180px;
+    margin: 0 auto;
+}
+.footerSocial .footerImg{
+    height: 30px;
+}
+.footerSocial img{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+.footerSocial a{
+    display: inline-block;
+    color: #16b0dc;
+}
+.footerSocial a:hover{
+    color: #16b0dc;
+    text-decoration: underline;
+}
+.footerSocial .footerNum{
+    height: 30%;
+    margin-top: 20px;
+    line-height: 25px;
+}
